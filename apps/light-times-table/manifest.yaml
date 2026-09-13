@@ -4,7 +4,7 @@ version: 0.1.0
 name: Light Times Table
 author: ShulinZhou
 description: A lighter multiplication drill - one shuffled equation at a time, three to a round, both numbers drawn at random from 1 to 9. Every equation gets three fresh random colours.
-category: Education
+category: Science
 entry: app.star
 
 width: 128
