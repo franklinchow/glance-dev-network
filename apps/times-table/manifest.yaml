@@ -4,7 +4,7 @@ version: 0.3.0
 name: Times Table
 author: ShulinZhou
 description: Multiplication drill on the panel - one equation at a time, nine to a round. Normal walks a single table 1 to 9; Shuffle draws both numbers at random. Colours can be yours or freshly drawn each equation.
-category: Education
+category: Fun
 entry: app.star
 
 width: 128
