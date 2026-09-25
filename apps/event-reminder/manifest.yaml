@@ -3,7 +3,7 @@ id: event-reminder
 version: 0.1.0
 name: Event Reminder
 author: ShulinZhou
-description: Days until the next time a recurring thing happens - every day, every few days, weekly, monthly or yearly - with themed pixel art and a count colour of your choice.
+description: Days until the next time a recurring thing happens - a day of the week, weekly, monthly or yearly - with themed pixel art and a count colour of your choice.
 category: Lifestyle
 entry: app.star
 
@@ -12,6 +12,32 @@ height: 32
 refresh: 21600
 
 pages: [reminder]
+
+assets:
+  - archery.png
+  - badminton.png
+  - basketball.png
+  - bicycle.png
+  - billiards.png
+  - birthday.png
+  - chess.png
+  - church.png
+  - climbing.png
+  - darts.png
+  - dumbbell.png
+  - fishing.png
+  - football.png
+  - frisbee.png
+  - golf.png
+  - hockey.png
+  - hospital.png
+  - restaurant.png
+  - ring.png
+  - school.png
+  - skiing.png
+  - soccer.png
+  - trash.png
+  - walking.png
 
 inputs:
   - key: title1
@@ -24,8 +50,8 @@ inputs:
     type: string
     app_input_type: date
     label: First date
-    default: "2026-09-12"
-    help: The first time it happens. The schedule counts from here.
+    default: "2026-12-31"
+    help: The first time it happens - today or later. The schedule counts from here.
   - key: repeat1
     type: string
     app_input_type: dropdown
@@ -33,10 +59,13 @@ inputs:
     default: Weekly
     help: How often it happens. The panel counts down to the next one.
     choices:
-      - "Every day"
-      - "Every 2 days"
-      - "Every 3 days"
-      - "Every 4 days"
+      - "Every Sunday"
+      - "Every Monday"
+      - "Every Tuesday"
+      - "Every Wednesday"
+      - "Every Thursday"
+      - "Every Friday"
+      - "Every Saturday"
       - Weekly
       - "Every 2 weeks"
       - Monthly
